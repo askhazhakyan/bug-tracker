@@ -1,0 +1,43 @@
+.current-issues{
+    max-height: 360px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 30px;
+}
+
+.current-issues p{
+    text-align: left;
+    color: #F3F0F0;
+    margin: 10px 0;
+}
+
+.current-issues p span{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.current-issues p span, .current-issues .description-text{
+    color: black;
+    opacity: 50%;
+}
+
+.current-issues .indv-issue{
+    position: relative;
+}
+
+.current-issues .close-issue{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #F3F0F0;
+    opacity: 70%;
+    margin-top: 0;
+}
+
+.current-issues hr{
+    border: none;
+    background:#F3F0F0;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
