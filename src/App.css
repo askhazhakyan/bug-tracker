@@ -9,7 +9,7 @@ button{
 }
 
 body{
-  background:  #F8EEE9;
+  background-image: url("https://wallpaperaccess.com/full/88181.jpg");
 }
 
 h1{
@@ -19,7 +19,7 @@ h1{
 }
 
 .card-container{
-  background-color:	#D2B48C;
+  background-color:	#ffffff10;
   max-width: 36%;
   margin: auto;
   -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.35);
@@ -30,6 +30,8 @@ h1{
   padding: 40px 50px 30px;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 20px;
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .current-issues::-webkit-scrollbar-track
