@@ -31,6 +31,7 @@ function CurrentIssue() {
       </div>
       <hr />
     </div>
+    <div>{this.props.children}</div> 
   );
 }
 
