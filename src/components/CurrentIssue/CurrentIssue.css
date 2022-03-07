@@ -11,7 +11,7 @@
     margin: 10px 0;
 }
 
-p span{
+.current-issues p span{
     display: inline-block;
     margin-left: 20px;
 }
