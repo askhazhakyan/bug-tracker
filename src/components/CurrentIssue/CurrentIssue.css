@@ -18,7 +18,7 @@
 
 .current-issues p span, .description{
     color: white;
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 .current-issues .indv-issue{
@@ -30,7 +30,7 @@
     top: 0;
     right: 0;
     color: #F3F0F0;
-    opacity: 70%;
+    opacity: 0.7;
     margin-top: 0;
 }
 
