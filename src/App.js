@@ -5,15 +5,17 @@ import CurrentIssue from './components/CurrentIssue/CurrentIssue.js';
 import './App.css';
 
 function App() {
-  const[addIssue, setAddIssue] = useState(false)
 
-  function showAddIssue(){
+  const [addIssue, setAddIssue] = useState(false);
+
+  function showAddIssue() {
     setAddIssue(true);
   }
 
-  function showCurrentIssue(){
+  function showCurrentIssue() {
     setAddIssue(false);
   }
+
 
   return (
     <div className="App">
