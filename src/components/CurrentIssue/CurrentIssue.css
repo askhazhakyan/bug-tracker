@@ -34,6 +34,10 @@
     margin-top: 0;
 }
 
+.close:hover{
+    cursor: pointer;
+}
+
 .current-issues hr{
     border: none;
     background:#F3F0F0;
